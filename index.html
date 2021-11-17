@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Blog</title>
+	<meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body style="background-image:url(bg3.jpg)">
+<!--start of the header-->
+<nav class="navbar navbar-expand-sm navbar-dark bg-success">
+<a class="navbar-brand" href="#"><img src="blog logo.png" width="50px"></a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+	<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="collapsibleNavbar">
+<ul class="navbar-nav">
+<li class="navbar-item" style="margin-left:80px;font-weight:bold;">
+<a href="Fpage.html" class="navbar-link text-white">Home</a>
+</li>
+<li class="navbar-item" style="margin-left:80px;font-weight:bold;">
+<a href="#" class="navbar-link text-white">About</a>
+</li>
+<li class="navbar-item" style="margin-left:80px; font-weight:bold;">
+<a href="#" class="navbar-link text-white">Display</a>
+</li>
+</ul>	
+</div>
+</nav>
+<!--end of the header-->
+<!--start of  the form-->
+<div class="container">
+<form>
+	<div class="form-group" style="width:250px; height:300px; float:right">
+		<label for="email" class="text-success" style="font-weight:bold">Email:</label>
+		<input type="email" class="form-control" placeholder="enter email" name="email">
+
+		<label for="password" class="text-success" style="font-weight:bold">Password:</label>
+		<input type="password" class="form-control" placeholder="enter password" name="password">
+
+		<label class="text-success" style="margin-left:20px; font-weight:bold">
+		<input type="checkbox" name="remember" class="form-check-input">Remember me
+		</label>
+		<br>
+		<button type="submit" class="btn btn-success"><a href="#" class="text-white">Submit</a></button>
+		<p class="text-success" style="font-weight:bold"> Don't have an acoount<br><a href="#" class="text-success">Register</a></p>
+	</div>
+</form>
+</div>
+<!--end of the form-->
+</body>
+</html>
